@@ -1,5 +1,5 @@
 package com.hashtable;
-    public class MyMapNode<K, V> {
+public class MyMapNode<K, V> {
         K key;
         V value;
         MyMapNode<K, V> next;
@@ -33,6 +33,7 @@ package com.hashtable;
         public void setNext(MyMapNode<K, V> next) {
             this.next = (MyMapNode<K, V>) next;
         }
+
 
         @Override
         public String toString() {
